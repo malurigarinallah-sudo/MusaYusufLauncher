@@ -57,7 +57,7 @@ public class AppGrid extends GridLayout {
         params.width = 0;
         params.height = LayoutParams.WRAP_CONTENT;
         params.columnSpec = GridLayout.spec(GridLayout.UNDEFINED, 1f);
-        params.setGravity(Gravity.CENTER);
+        params.setGravity(Gravity.FILL_HORIZONTAL);
         params.setMargins(dp(4), dp(6), dp(4), dp(6));
 
         addView(item, params);
