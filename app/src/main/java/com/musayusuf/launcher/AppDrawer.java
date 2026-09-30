@@ -532,10 +532,9 @@ public class AppDrawer extends LinearLayout {
                         GridLayout.UNDEFINED,
                         1f
                 );
-
-        params.setGravity(
-                Gravity.CENTER
-        );
+ params.setGravity(
+        Gravity.FILL_HORIZONTAL
+);
 
         params.setMargins(
                 dp(4),
